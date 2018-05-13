@@ -31,8 +31,8 @@ namespace MyTool_MakeLinearGradient
 				//縦に白から黒へのグラデーションのブラシを作成
 				using (LinearGradientBrush gb = new LinearGradientBrush(
 							g.VisibleClipBounds,
-							Color.White,
 							Color.Black,
+							Color.White,
 							LinearGradientMode.Vertical))
 				{
 					//四角を描く
@@ -51,8 +51,8 @@ namespace MyTool_MakeLinearGradient
 				//縦に黒から白へのグラデーションのブラシを作成
 				using (LinearGradientBrush gb = new LinearGradientBrush(
 							g.VisibleClipBounds,
-							Color.Black,
 							Color.White,
+							Color.Black,
 							LinearGradientMode.Vertical))
 				{
 					//四角を描く
@@ -71,8 +71,8 @@ namespace MyTool_MakeLinearGradient
 				//横に白から黒へのグラデーションのブラシを作成
 				using (LinearGradientBrush gb = new LinearGradientBrush(
 							g.VisibleClipBounds,
-							Color.White,
 							Color.Black,
+							Color.White,
 							LinearGradientMode.Horizontal))
 				{
 					//四角を描く
@@ -91,8 +91,8 @@ namespace MyTool_MakeLinearGradient
 				//横に黒から白へのグラデーションのブラシを作成
 				using (LinearGradientBrush gb = new LinearGradientBrush(
 							g.VisibleClipBounds,
-							Color.Black,
 							Color.White,
+							Color.Black,
 							LinearGradientMode.Horizontal))
 				{
 					//四角を描く
